@@ -4,7 +4,7 @@ student_name = input("What is your name? ")
 subject = input("What subject did you study? ")
 hours = input("How many hours did you study? ")
 
-    # ensure numeric and calculate minutes and progress toward a weekly goal
+# ensure numeric and calculate minutes and progress toward a weekly goal
 hours = float(hours)
 minutes = int(hours * 60)
 weekly_goal = 10.0
